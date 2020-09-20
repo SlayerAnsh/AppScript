@@ -1,2 +1,2 @@
 # AppScript
-Appscript related projects
+Google Appscript related projects
