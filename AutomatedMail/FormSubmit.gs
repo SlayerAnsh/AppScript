@@ -50,7 +50,7 @@ function createEmailBody(name){
   let templ = HtmlService
       .createTemplateFromFile('CustomizeMail');
   
-  templ.name = name;
+  templ.name = name;// these are variables in the template
   let message = templ.evaluate().getContent();
   return message;
 }
