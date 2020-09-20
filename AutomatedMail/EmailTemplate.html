@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<style>
+		* {
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		}
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			line-height: 1.6;
+		}
+		.header {
+			margin: auto;
+			width: 80%;
+			padding: 20px 10px;
+			background-color: #000000;
+			color: #00FF66;
+			font-size: 32px;
+			font-weight: bold;
+			text-align: center;
+			min-width: 360px;
+		}
+		.content {
+			margin: auto;
+			margin-top: 8px;
+			margin-bottom: 8px;
+			width: 80%;
+			padding: 25px 30px 30px;
+			background-color: #202020;
+			color: #ffffff;
+			min-width: 360px;
+		}
+		.content p {
+			margin-top: 15px;
+		}
+		.footer {
+			margin: auto;
+			width: 80%;
+			padding: 10px 10px;
+			background-color: #000000;
+			color: #00BDFF;
+			font-size: 12px;
+			text-align: center;
+			min-width: 360px;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<div class="header">
+		<p>HEADER</p>
+	</div>
+	<div class="content">
+        <p>Hi, <?= candidate ?></p>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+    the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+	</div>
+	<div class="footer">
+		<p>Test TEst</p>
+		<p>test test</p>
+	</div>
+</div>    
+</body>
+</html>
